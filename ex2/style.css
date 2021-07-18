@@ -1,0 +1,24 @@
+body{
+    direction: rtl;
+}
+h1{
+    color: aqua;
+    font-size: 20px;
+}
+.title{
+    color: brown;
+    font-weight: bold;
+}
+#btn{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    width: 270px;
+    height: 40px;
+}
+.txt{
+    font-size: 24px;
+    background-color: yellow;
+    color: pink;
+    box-shadow: 5px 5px 15px 5px indigo;
+}
