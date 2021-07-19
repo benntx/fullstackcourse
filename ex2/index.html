@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork_Ex2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>רישום לאתר:</h1>
+    </header>
+    <main>
+        <div>
+            <table>
+                <form>
+                    <tr>
+                        <td><label for="firstName" class="title">שם פרטי:</label></td>
+                        <td><input type="text" name="firstName" class="txt"></td>
+                    </tr>       
+                    <tr>
+                        <td><label for="lastName" class="title">שם משפחה:</label></td>
+                        <td><input type="text" name="lastName" class="txt"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="eMail" class="title">אימייל:</label></td>
+                        <td><input type="email" name="eMail" class="txt"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="id" class="title">תעודת זהות:</label></td>
+                        <td><input type="text" name="id" pattern="{9}" class="txt" title="אנא הזן 9 ספרות"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="" class="title">מין:</label></td>
+                        <td>
+                            <label for="gender" class="title">זכר:</label>
+                            <input type="radio" name="gender">
+                            <label for="gender" class="title">נקבה:</label>
+                            <input type="radio" name="gender">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="msg" class="title" class="txt">הודעה:</label></td>
+                        <td><textarea name="msg" cols="22" rows="10" class="txt"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button id="btn">שלח</button></td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
