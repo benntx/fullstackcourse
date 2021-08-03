@@ -1,0 +1,123 @@
+:root{
+    direction: rtl;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: rgb(52, 186, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+body{
+    margin: 0 auto;
+}
+
+#divAbout{
+    display: flex;
+    flex-direction: column;    
+    max-height: 268px;
+    flex-wrap: wrap;
+    background-color: #00ede1;
+    color: white;
+    font-size: 18px;
+    align-items: baseline;
+}
+
+#divAbout h2{
+    margin: 0;
+}
+
+#divAbout p{
+    margin-bottom: 0;
+}
+
+#img{
+    width: 250px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.specialty{
+    border: solid #36486b;
+    background-color: #36486b;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.divPrj{
+    background-color: #42aaf5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: baseline;
+    max-height: 444px;
+}
+
+.divPrj img{
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 120px;
+}
+
+.divPrj h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 23px;
+}
+.divPrj p{
+    margin-top: 0;
+    max-width: 450px;
+    margin-right: 25px;
+}
+
+#prtScImg{
+    border-radius: 8%;
+}
+
+.datePrj{
+    font-size: smaller;
+}
+#FormID{
+    background-color: #00ede1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border-color: black;
+    width: 125px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#nameSpan{
+    margin-top: 20px;
+    margin-right: 18px;
+    border: black;
+    border-bottom-style: solid;
+}
+
+#mailSpan{
+    border: black;
+    border-bottom-style: solid;
+}
+.inputClass{
+    background-color: #00ede1;
+    border: #00ede1;
+}
+textarea{
+    margin-top: 20px;
+    border: solid black;
+}
+footer{
+    text-align: center;
+    background-color: rgb(52, 186, 235);
+}
