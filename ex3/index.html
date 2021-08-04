@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My representation</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a3f899625d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -20,15 +25,19 @@
             <div id="divAbout">
                 <h2>בן ציון פיס</h2>
                 <p>מפתח Fullstack</p>
-                <label class="specialty">CSS3 <label>HTML5</label></label>   
-                <p>&#9990; 0504108975</p>
-                <p>&#9993; barf18@gmail.com</p>
+                <div id="specialtyDiv">
+                    <span class="specialty">CSS3</span>
+                    <span class="specialty">HTML5</span> 
+                </div>
+                <p><i class="fas fa-mobile-alt"></i> 0504108975</p>
+                <p><i class="far fa-envelope"></i> barf18@gmail.com</p>
                 <p>אני מעוניין בסופו של דבר להיות מפתח פרילנסר ובכדי להגיע לזה אני מתכוון להשקיע ולתת את המקסימום כדי להצליח</p>
                 <img id="img" src="image/me.jpg" alt="תמונה שלי">
             </div>
         </section>
         <section>
             <div id="idPrj" class="divPrj">
+                <a href="tel:+0504108975"><i id="goToPhone" class="fas fa-phone-alt"></i></a>
                 <img id="prtScImg" src="image/PrtScPrj.png" alt="תמונת מסך של הפרויקט">
                 <h2 class="contentPrj">שם הפרויקט</h2>
                 <p class="contentPrj datePrj">אוגוסט 2021</p>
@@ -73,6 +82,7 @@
         </div>
     </main>
     <footer>
+        <span><a href="#"><i class="fas fa-chevron-up"></i></a></span>
         <span>כל הזכויות שמורות לבן ציון פיס 2021 &copy;</span>
     </footer>
 </body>
