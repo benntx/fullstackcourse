@@ -19,11 +19,13 @@ nav a:hover{
 body{
     margin: 0 auto;
     font-family: 'David Libre', serif;
+    position: relative;
 }
 
 #goToPhone{
     position: absolute;
-    top: calc(50% - 100px);
+    height: 1vh;
+    top: calc(50% - 0.5vh);
     left: 0;
     font-size: 25px;
 }
