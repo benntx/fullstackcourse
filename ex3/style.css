@@ -130,8 +130,9 @@ button{
     border-bottom-style: solid;
 }
 .inputClass{
-    background-color: #00ede1;
-    border: #00ede1;
+    background: transparent;
+    border: none;
+    outline: none;
 }
 textarea{
     margin-top: 20px;
