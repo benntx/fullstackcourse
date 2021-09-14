@@ -1,0 +1,27 @@
+@media only screen and ( max-width: 360px)
+{
+    header
+    {
+        background-color: #454681;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    nav
+    {
+        display: none;
+    }
+    a{
+        color: rgb(199, 209, 218);
+    }
+    #para
+    {
+        margin-top: 400px;
+    }
+    #paratest
+    {
+        margin-top: 700px;
+    }
+}
+    
