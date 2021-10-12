@@ -3,5 +3,8 @@ let nav = document.getElementById('navi');
 
 icon.addEventListener('click',(event) =>
 {
-    nav.style.display = 'block'
+    if(nav.style.display == "none")
+        nav.style.display = 'block';
+    else
+        nav.style.display = "none";
 })
